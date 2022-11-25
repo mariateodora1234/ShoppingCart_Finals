@@ -79,10 +79,10 @@
 <body>
     <div class="container pt-3">
         <div class="row">
-                <div class="col-md-10">
+                <div class="col-md-10 mt-5">
                 <h3 class="h3 d-inline mt-5"><i class="fa-solid fa-store"></i>Learn IT Easy Online Shop</h3>                
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-2 mt-5">
                     <a href="cart.php" class="btn btn-primary">
                         <i class="fa fa-shopping-cart"></i> Cart
                         <?php 
@@ -116,7 +116,7 @@
                             <?php echo $arrProducts[$_GET['k']]['name']; ?>
                             <span class="badge badge-dark">₱<?php echo $arrProducts[$_GET['k']]['price']; ?></span>
                         </h3>
-                        <p><?php echo $arrProducts[$_GET['key']]['description']; ?></p>
+                        <p><?php echo $arrProducts[$_GET['k']]['description']; ?></p>
                         <hr>
                         <input type="hidden" name="hdnKey" value="<?php echo $_GET['k']; ?>">
                         <input type="hidden" name="hdnSize" value="<?php echo $_GET['s']; ?>">
