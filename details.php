@@ -80,7 +80,7 @@
 <body>
 	<div class="container pt-3">
     	<div class="row">
-                <div class="col-lg-10 mt-5">
+                <div class="col-md-10 mt-5">
                 <h3 class="h3 d-inline mt-5"><i class="fa-solid fa-store"></i>Learn IT Easy Online Shop</h3>                
                 </div>
                 <div class="col-md-2 mt-5">
